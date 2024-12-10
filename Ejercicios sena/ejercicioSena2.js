@@ -1,5 +1,5 @@
-//MIguel Angel Ortiz Escobar//
-//Programa que calcule area y perimetro //
+// * MIguel Angel Ortiz Escobar//
+// ! Programa que calcule area y perimetro //
 listaDeNumeros = [];
 
 listaDeNumeros[0] = parseInt(promt("N1: "));

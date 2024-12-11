@@ -1,4 +1,4 @@
-// TIPOS DE DATOS
+// Data type
 
 // Numbers:
 let length = 16;
@@ -12,6 +12,9 @@ let lastName = "Johnson";
 // Object:
 const person = {firstName:"John", 
     lastName:"Doe"};
+
+const person2 = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
 
 // Array object:
 const cars = ["Saab", "Volvo", "BMW"];
@@ -48,3 +51,11 @@ let z = 6;
 (x == z)       // Returns false
 
 
+
+// The typeof Operator
+
+typeof 0              // Returns "number"
+typeof 314            // Returns "number"
+typeof 3.14           // Returns "number"
+typeof (3)            // Returns "number"
+typeof (3 + 4)        // Returns "number"

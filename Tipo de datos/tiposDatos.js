@@ -1,61 +1,64 @@
-// Data type
+/*
+Ejemplos de tipos de datos en JavaScript
+*/
 
-// Numbers:
-let length = 16;
-let weight = 7.5;
+//Tipo de dato string
+var nombre = "Carlos";
+console.log(typeof nombre);
 
-// Strings:
-let color = "Yellow";
-let lastName = "Johnson";
+nombre = 10.5;
+console.log(typeof nombre);
 
+//Tipo de dato numerico
+var numero = 1000;
+console.log(numero);
 
-// Object:
-const person = {firstName:"John", 
-    lastName:"Doe"};
+//Tipo de dato object
+var objecto = {
+  nombre: "Juan",
+  apellido: "Perez",
+  telefono: "55443322",
+};
+console.log(typeof objecto);
 
-const person2 = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+//Tipo de dato boolean (true, false)
+var bandera = false;
+console.log(typeof bandera);
 
+//Tipo de dato function
+function miFuncion() {}
+console.log(typeof miFuncion);
 
-// Array object:
-const cars = ["Saab", "Volvo", "BMW"];
+//Tipo de dato Symbol
+var simbolo = Symbol("mi simbolo");
+console.log(typeof simbolo);
 
-// Date object:
-const date = new Date("2022-03-25");
+//Tipo clase es una function
+class Persona {
+  constructor(nombre, apellido) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+  }
+}
+console.log(typeof Persona);
 
-// Using double quotes:
-let carName1 = "Volvo XC60";
+//Tipo undefined
+var x;
+console.log(typeof x);
 
-// Using single quotes:
-let carName2 = 'Volvo XC60';
+x = undefined;
+console.log(typeof x);
 
+//null = ausencia de valor
+var y = null;
+console.log(typeof y);
 
-// Single quote inside double quotes:
-let answer1 = "It's alright";
+//arreglo en JavaScript
+var autos = ["BMW", "Audi", "Volvo"];
+console.log(autos);
+console.log(typeof autos);
 
-// Single quotes inside double quotes:
-let answer2 = "He is called 'Johnny'";
-
-// Double quotes inside single quotes:
-let answer3 = 'He is called "Johnny"';
-
-// With decimals:
-let x1 = 34.00;
-
-// Without decimals:
-let x2 = 34;
-
-let x = 5;
-let y = 5;
-let z = 6;
-(x == y)       // Returns true
-(x == z)       // Returns false
-
-
-
-// The typeof Operator
-
-typeof 0              // Returns "number"
-typeof 314            // Returns "number"
-typeof 3.14           // Returns "number"
-typeof (3)            // Returns "number"
-typeof (3 + 4)        // Returns "number"
+//Cadena vacia (empty string)
+var z = "";
+console.log(z);
+console.log(typeof z);

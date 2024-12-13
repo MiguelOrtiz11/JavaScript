@@ -18,3 +18,10 @@ console.log(autos);
 console.log(autos.length);
 autos[autos.length] = "Cadillac";
 console.log(autos);
+
+autos[6] = "Porshe";
+console.log(autos);
+
+//Preguntar si es un array
+
+console.log(Array.isArray(autos));

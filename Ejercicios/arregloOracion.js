@@ -2,14 +2,14 @@
 // devuelva un arreglo con cada letra de la oracion
 
 function arregloOracion(oracion) {
+  let arreglo = []; // Declarar el arreglo fuera del bucle
   for (let i = 0; i < oracion.length; i++) {
-    let arreglo = [];
-    arreglo.push(oracion[i]);
-    console.log(arreglo);
+    arreglo.push(oracion[i]); // Agregar cada letra al arreglo
   }
+  return arreglo; // Devolver el arreglo completo
 }
 
-arregloOracion("Texto");
+console.log(arregloOracion("Texto"));
 
 // solucion 2
 function arregloOracionSplit(texto) {
